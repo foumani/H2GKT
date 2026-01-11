@@ -1,0 +1,21 @@
+# Logs (anywhere)
+**/log/
+*.log
+
+# IDE settings
+.idea/
+
+# Shell scripts
+*.sh
+
+# Data folders (anywhere)
+data/
+**/data/
+
+# AKT specific exclusions
+akt/model/
+akt/result/
+
+# Python cache (standard practice to include this too)
+__pycache__/
+*.pyc
