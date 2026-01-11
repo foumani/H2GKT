@@ -182,7 +182,7 @@ if __name__ == '__main__':
 
     if dataset in {"assist2012"}:
         params.n_question = 265 + 1
-        params.batch_size = 128
+        params.batch_size = 256
         params.seqlen = 200
         params.data_dir = '../data/' + dataset
         params.data_name = dataset
